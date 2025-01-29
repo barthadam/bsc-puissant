@@ -88,7 +88,7 @@ async function main() {
      "data":iface.encodeFunctionData("transfer",[
       myAddress,
       web3.utils.toWei('1','ether') // change 1 to how many token u want transfer to your safe wallet
-    ])
+    ]),
        'nonce':nonce+1
       };
   
